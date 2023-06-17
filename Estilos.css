@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{background-color: rgb(238, 227, 214); margin: 30px;padding: 20px;}
+header{background-color: rgb(241, 227, 210);height: 350px;text-align: center;}
+main{background-color: rgb(170, 191, 192);}
+footer{text-align: center; background-color: rgb(230, 152, 167); font: 500;color: rgb(0, 0, 0);}
+
+nav{height: 150px;
+    display: flex;
+    align-items: center;
+text-align: center;}
+    
+.row{
+display: flex;
+justify-content: space-evenly;}
+
+.col{background-color: darksalmon; width: 300px; padding: 16px;}
+
+input{padding: 6px;}
+button{padding: 8px; background-color: deeppink;font-family: fantasy;font-size: medium;}
+
+form{display: flex;
+flex-direction: column;}
+
+button:hover{background-color: rgb(128, 0, 68);}
+label{
+    margin-top: 10px;font-family: fantasy;
+}
+
