@@ -5,18 +5,20 @@
 }
 
 section{background-color: rgb(238, 227, 214); margin: 30px;padding: 20px;}
-header{background-color: rgb(241, 227, 210);height: 350px;text-align: center;}
-main{background-color: rgb(170, 191, 192);}
+header{background-color: rgb(241, 227, 210);height: 150px;text-align: center;}
+main{background-color: rgb(170, 191, 192); padding: 16px;}
 footer{text-align: center; background-color: rgb(230, 152, 167); font: 500;color: rgb(0, 0, 0);}
 
 nav{height: 150px;
     display: flex;
     align-items: center;
-text-align: center;}
-    
+text-align: left;}
+.titulo{margin-top: 15px;}
+.titulo2{margin-bottom: 32px;}
 .row{
 display: flex;
 justify-content: space-evenly;}
+.Parrafo{margin-top: 20px;}
 
 .col{background-color: darksalmon; width: 300px; padding: 16px;}
 
